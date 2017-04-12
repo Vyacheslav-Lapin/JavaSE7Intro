@@ -5,20 +5,20 @@ public class MessageGen {
 
     public static void main(String[] args) {
         Person person1 = new Person();
+        Person person2 = person1;
+        System.out.println(person1.getAge()); //0
+        System.out.println(person2.getAge()); //0
         person1.setAge(50);
+        System.out.println(person1.getAge());//50
+        System.out.println(person2.getAge());//50
 
-        Person person2 = new Person();
-        person2.setAge(40);
+        System.out.println();
 
-        Person person3 = new Person();
-        person3.setAge(5);
+        int i = 5;
+        int j = i;
+        System.out.printf("i = %d; j = %d%n", i, j);
+        i = 55;
+        System.out.printf("i = %d; j = %d%n", i, j);
 
-        Person person4 = new Person();
-        person4.setAge(25);
-
-        System.out.println(person1);
-        System.out.println(person2);
-        System.out.println(person3);
-        System.out.println(person4);
     }
 }
