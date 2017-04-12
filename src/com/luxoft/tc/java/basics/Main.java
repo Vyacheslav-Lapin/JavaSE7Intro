@@ -1,3 +1,5 @@
+package com.luxoft.tc.java.basics;
+
 import com.luxoft.tc.java.basics.chemistry.Table;
 
 import java.util.Date;

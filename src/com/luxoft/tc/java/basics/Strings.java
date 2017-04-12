@@ -1,3 +1,5 @@
+package com.luxoft.tc.java.basics;
+
 import java.util.Objects;
 
 public class Strings {

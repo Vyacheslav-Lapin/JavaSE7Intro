@@ -1,3 +1,5 @@
+package com.luxoft.tc.java.basics;
+
 public class Person {
     private String name;
     private int age;
@@ -12,7 +14,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "com.luxoft.tc.java.basics.Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';

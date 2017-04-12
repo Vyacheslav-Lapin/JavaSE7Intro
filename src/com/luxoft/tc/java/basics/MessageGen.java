@@ -1,3 +1,5 @@
+package com.luxoft.tc.java.basics;
+
 public class MessageGen {
     public String getMessage() {
         return "Hello, World!!!";

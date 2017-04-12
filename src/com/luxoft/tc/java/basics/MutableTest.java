@@ -1,3 +1,5 @@
+package com.luxoft.tc.java.basics;
+
 import java.util.Date;
 
 public class MutableTest {
