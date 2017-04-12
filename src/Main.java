@@ -1,11 +1,10 @@
-import com.luxoft.tc.java.basics.furniture.Table;
+import com.luxoft.tc.java.basics.chemistry.Table;
 
 import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        Table table = new Table();
-        com.luxoft.tc.java.basics.chemistry.Table table1 = new com.luxoft.tc.java.basics.chemistry.Table();
+        Table table1 = new Table();
         Date date = new Date();
     }
 }
