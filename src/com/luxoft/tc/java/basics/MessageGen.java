@@ -6,7 +6,7 @@ public class MessageGen {
     }
 
     public static void main(String[] args) {
-        Person person1 = new Person();
+        Person person1 = new Person("John Smith", 35);
         Person person2 = person1;
         System.out.println(person1.getAge()); //0
         System.out.println(person2.getAge()); //0
