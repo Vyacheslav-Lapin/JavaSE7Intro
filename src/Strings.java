@@ -7,6 +7,7 @@ public class Strings {
         System.out.println(s.equals(s1)); //true
         s1 = s1.intern();
         s = s.intern();
+        System.out.println(s.equals(s1)); //true
         System.out.println(Objects.equals(s, s1)); //true
     }
 }
