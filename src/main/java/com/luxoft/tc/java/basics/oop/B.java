@@ -1,4 +1,4 @@
-package com.luxoft.tc.java.basics.bank;
+package com.luxoft.tc.java.basics.oop;
 
 public class B extends A {
     public void m2() {

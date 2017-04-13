@@ -1,4 +1,4 @@
-package com.luxoft.tc.java.basics.bank;
+package com.luxoft.tc.java.basics.oop;
 
 public class D extends B implements C, E {
     @Override
