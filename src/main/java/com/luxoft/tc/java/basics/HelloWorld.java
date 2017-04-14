@@ -11,17 +11,15 @@ public class HelloWorld {
         return false;
     }
 
-    public static class Inner1 implements Interf1 {
-        @Override
-        public String m1() {
-            return String.format(
-                    "Мама мыла раму %d раз!",
-                    f
-            );
-        }
-    }
-
     public static Interf1 m2() {
-        return new Inner1();
+        return new Interf1() {
+            @Override
+            public String m1() {
+                return String.format(
+                        "Мама мыла раму %d раз!",
+                        f
+                );
+            }
+        };
     }
 }
