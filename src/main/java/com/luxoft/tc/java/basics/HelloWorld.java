@@ -12,14 +12,6 @@ public class HelloWorld {
     }
 
     public static Interf1 m2() {
-        return new Interf1() {
-            @Override
-            public String m1() {
-                return String.format(
-                        "Мама мыла раму %d раз!",
-                        f
-                );
-            }
-        };
+        return () -> String.format("Мама мыла раму %d раз!", f);
     }
 }
