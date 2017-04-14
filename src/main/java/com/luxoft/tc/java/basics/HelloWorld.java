@@ -2,21 +2,14 @@ package com.luxoft.tc.java.basics;
 
 public class HelloWorld {
     static public void main(String... strings) {
-        System.out.println(new MessageGen().getMessage());
-        int i = 0;
-        int j = ++i;
-        System.out.println(j);
-
-        //...
-
-        System.out.println((i == 0) ? "ноль" : "не ноль");
-
-        Integer i1 = 5;
-        int i2 = i1;
-        m1(i1);
+        if (m1(1) && m1(0)) {
+            System.out.println("пришли!");
+        } else
+        System.out.println("не пришли!");
     }
 
-    public static void m1(int i) {
+    public static boolean m1(int i) {
         System.out.println(i);
+        return i == 0;
     }
 }
