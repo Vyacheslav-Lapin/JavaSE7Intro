@@ -6,5 +6,17 @@ public class HelloWorld {
         int i = 0;
         int j = ++i;
         System.out.println(j);
+
+        //...
+
+        System.out.println((i == 0) ? "ноль" : "не ноль");
+
+        Integer i1 = 5;
+        int i2 = i1;
+        m1(i1);
+    }
+
+    public static void m1(int i) {
+        System.out.println(i);
     }
 }
